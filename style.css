@@ -3,3 +3,35 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+.container{
+    border: black solid 4px;
+    padding: 24px 150px;
+    margin: 24px;
+    display: flex;
+    justify-content: center;
+}
+
+.row{
+    width: 100%;
+    display: flex;
+    max-width: 600px;
+}
+
+.box-wrapper{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.box{
+    border: solid 4px black;
+    height: 50px;
+    margin: 10px;
+}
+
+.big-box{
+    border: solid black 4px;
+    width: 50%;
+    margin: 10px;
+}
